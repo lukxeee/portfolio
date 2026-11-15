@@ -595,7 +595,6 @@ span{
   border-radius: 12px;
 }
 
-/* dot on the line */
 .edu-item::before {
   content: "";
   position: absolute;
@@ -638,14 +637,28 @@ span{
   line-height: 1.6;
 }
 
-.edu-img {
+.edu-item {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+
+.edu-item img {
   display: block;
   width: 100%;
-  height: 220px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
 }
+
+.timeline {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 
 
 
